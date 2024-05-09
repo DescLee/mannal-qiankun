@@ -1,0 +1,1 @@
+export const fetchSource = (url) => fetch(url).then(res => res.text());
